@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type= "text/javascript" src="latlong.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  </head>
+  <header><h1>Pacific Northwest Fire and Trail Map</h1></header>
+<body>
+  <div id= 'map'></div>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsXfVkwp715Ql0SM_qrs5dFJ-PhAetqYs&callback=initMap&libraries=geometry,visualization">
+      </script>
+  <form action= 'index.html' method= 'get'>
+    <fieldset>
+      <div>
+        <p>2015 marks the largest forest fires in Washington State's history. The map shows all active wildfires by latitude and longitude. The trails indicate the Pacific Northwest Trail and the Pacific Crest Trail which pass though Washington. Click the map to view the distance between fires and your location on the trail.
+        </p>
+      </div>
+      <label text= 'datalayer'>Show Fires <input type= 'checkbox' name= 'datalayer' value= 'datalayer'></label><br><br>
+      <label text= 'datalayer2'>Show Trails <input type= 'checkbox' name= 'datalayer2' value= 'datalayer2'></label><br><br>
+      <button type=reset id='button' value= "reset">reset</button><br><br>
+    </fieldset>
+</body>
+</html>
+
+
+
+ <!--  async lets the rest of the browser load while the map api loads -->
