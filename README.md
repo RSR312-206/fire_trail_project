@@ -33,12 +33,12 @@ The JS Embed API I used organizes the features in the following sections:
 
 EMBED API
 --------------------
--Authentication
--Creating a Map
--Drawing on the Map
--Displaying Data
--Services
--Libraries
+- Authentication
+- Creating a Map
+- Drawing on the Map
+- Displaying Data
+- Services
+- Libraries
 
 It's presented in a clear layout with code samples and lots of conversation on stack overflow if you get stuck.
 
@@ -65,7 +65,7 @@ you'll probably be using more than one API library, so google allows you to chan
 
 **Loading the map**
 
-The map and it’s features are loaded via a callback function called mapInit() - it must be designated in your script in the HTML like this:
+The map and it’s features are loaded via a callback function called initMap() - it must be designated in your script in the HTML like this:
 
 
 <pre><code>callback=initMap</code></pre>

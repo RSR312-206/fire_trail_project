@@ -1,29 +1,29 @@
 html body {
-height: 100%;
-margin: 0;
-padding: 0;
-background-color: RGBA(149, 102, 65, 1);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: RGBA(149, 102, 65, 1);
 }
 
 header h1 {
-    width: 100%;
-    height:50px;
-    background: url(http://www.elec-intro.com/EX/05-15-00/avhrr-fire.gif);
-    border-top: 10px double RGBA(241, 185, 108, 1);
-    border-bottom: 10px double RGBA(241, 185, 108, 1);
-    margin:10px;
-    padding: 1em;
-    font-size: 45px;
-    font-family: futura;
-    font-weight: bold;
+  width: 100%;
+  height:50px;
+  background: url(http://www.elec-intro.com/EX/05-15-00/avhrr-fire.gif);
+  border-top: 10px double RGBA(241, 185, 108, 1);
+  border-bottom: 10px double RGBA(241, 185, 108, 1);
+  margin:10px;
+  padding: 1em;
+  font-size: 45px;
+  font-family: futura;
+  font-weight: bold;
 }
-#map {
-margin: 50px;
-margin-left: 80px;
-height: 700px;
-width: 1350px;
-border: 10px double RGBA(241, 185, 108, 1);
 
+#map {
+  margin: 50px;
+  margin-left: 80px;
+  height: 700px;
+  width: 1350px;
+  border: 10px double RGBA(241, 185, 108, 1);
 }
 
 fieldset {
@@ -33,8 +33,8 @@ fieldset {
   width: auto;
   text-align: left;
   border: none;
-
 }
+
 button {
   font-size: 20px;
   box-shadow: 10px 5px 5px black;
